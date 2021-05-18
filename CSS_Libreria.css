@@ -1,0 +1,80 @@
+﻿body {
+    background-color: #03254c;
+    font-family:Arial;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #2989D8;
+    border: 3px solid black;
+}
+nav {
+    background-color: #2989D8;
+    border: 3px solid black;
+    display:flex;
+    justify-content: center;
+}
+#home:hover, #add:hover, #cont:hover {
+    background-color: #D67627;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+thead {
+    background-color: #216DAC;
+}
+tbody tr:nth-child(even) {
+    background-color: #E6F5FC;
+}
+tbody tr:nth-child(odd) {
+    background-color: #BCDDF4;
+}
+tbody tr:hover {
+    background-color: #92C5EC;
+}
+#mod {
+    border: 2px dotted black; 
+    width: 100%;
+    text-align: center;
+    background-color: #d0efff
+}
+#canc {
+    border: 2px dotted black; 
+    width: 100%;
+    text-align: center;
+    background-color: #d0efff;
+}
+#agg {
+    border: 2px dotted black; 
+    width: 100%;
+    text-align: center;
+    background-color: #d0efff;
+}
+#con {
+    border: 2px dotted black;
+    width: 100%;
+    text-align: center;
+    background-color: #d0efff;
+}
+footer {
+    background-color: #2989D8;
+    border: 3px solid black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width:660px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        text-align: center;
+    }
+}
